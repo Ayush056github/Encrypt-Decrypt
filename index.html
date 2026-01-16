@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play-Fair Cipher Encrypt/Decrypt</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Play-Fair Cipher</h1>
+        <div class="input-group">
+            <label for="key">Key:</label>
+            <input type="text" id="key" placeholder="Enter key (e.g., MONARCHY)">
+        </div>
+        <div class="input-group">
+            <label for="text">Text:</label>
+            <textarea id="text" placeholder="Enter text to encrypt or decrypt"></textarea>
+        </div>
+        <div class="buttons">
+            <button id="encrypt">Encrypt</button>
+            <button id="decrypt">Decrypt</button>
+        </div>
+        <div class="output-group">
+            <label for="output">Result:</label>
+            <textarea id="output" readonly></textarea>
+        </div>
+        <div class="key-matrix">
+            <h2>Key Matrix</h2>
+            <div id="matrix"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
