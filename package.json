@@ -1,0 +1,25 @@
+{
+    "name": "encrypt-decrypt-playfair",
+    "version": "1.0.0",
+    "description": "Play-Fair Cipher Encryption/Decryption Application",
+    "main": "index.html",
+    "scripts": {
+        "dev": "python -m http.server 3000",
+        "build": "echo 'No build step required for static site'",
+        "start": "python -m http.server 3000"
+    },
+    "keywords": [
+        "cryptography",
+        "playfair-cipher",
+        "encryption",
+        "decryption",
+        "web-app"
+    ],
+    "author": "Ayush Mathur",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ayush056github/Encrypt-Decrypt.git"
+    },
+    "homepage": "https://encrypt-decrypt.vercel.app"
+}

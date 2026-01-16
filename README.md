@@ -11,6 +11,7 @@ A comprehensive and user-friendly implementation of the Play-Fair Cipher algorit
 ## 📋 Table of Contents
 
 - [Features](#-features)
+- [Deployment](#-deployment)
 - [Screenshots](#-screenshots)
 - [Technologies Used](#-technologies-used)
 - [Installation & Usage](#-installation--usage)
@@ -29,24 +30,41 @@ A comprehensive and user-friendly implementation of the Play-Fair Cipher algorit
 - **🛠️ Educational**: Includes algorithm explanations and visual aids
 - **💻 Cross-Platform**: Java version runs on Windows, macOS, and Linux
 
-## 📸 Screenshots
+## � Deployment
 
-### Web Version Interface
-![Web Application Screenshot](screenshots/web-interface.png)
-*The main web interface showing the encryption form and key matrix display*
+### Web Version on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Ayush056github/Encrypt-Decrypt)
 
-### Desktop Java Application
-![Java GUI Screenshot](screenshots/java-gui.png)
-*The Java Swing GUI with input fields and matrix visualization*
+The web application is deployed and live at: **[encrypt-decrypt.vercel.app](https://encrypt-decrypt.vercel.app)**
 
-### Key Matrix Generation
-![Key Matrix Example](screenshots/key-matrix.png)
-*Example of a generated 5x5 Play-Fair cipher matrix*
+#### Deploy to Vercel Manually:
+1. **Connect your GitHub account** to Vercel
+2. **Import your repository** from GitHub
+3. **Deploy automatically** - Vercel will detect the static site and deploy it
+4. **Custom domain** (optional) - Add your own domain if desired
 
-*Note: Screenshots will be added once the application is running. To add screenshots:*
-1. Take screenshots of both applications running
-2. Save them in a `screenshots/` folder
-3. Update the image paths above
+#### Local Development:
+```bash
+# Clone the repository
+git clone https://github.com/Ayush056github/Encrypt-Decrypt.git
+cd Encrypt-Decrypt
+
+# Start local server
+python -m http.server 8000
+
+# Open in browser
+# http://localhost:8000
+```
+
+### Desktop Version
+The Java desktop application can be downloaded and run locally:
+```bash
+# Compile
+javac PlayFairCipherGUI.java
+
+# Run
+java PlayFairCipherGUI
+```
 
 ## 🛠️ Technologies Used
 
