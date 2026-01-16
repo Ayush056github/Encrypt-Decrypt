@@ -8,9 +8,15 @@
 
 A comprehensive and user-friendly implementation of the Play-Fair Cipher algorithm for encryption and decryption. This project provides both web and desktop versions, making cryptography accessible and educational.
 
-## 📋 Table of Contents
+## �‍💻 About the Developer
 
-- [Features](#-features)
+**Ayush Mathur**  
+*B.Tech 3rd Year - Information Technology*
+
+This project showcases practical implementation of classical cryptography algorithms, demonstrating proficiency in multiple programming paradigms and technologies.
+
+## �📋 Table of Contents
+- [About the Developer](#-about-the-developer)- [Features](#-features)
 - [Deployment](#-deployment)
 - [Screenshots](#-screenshots)
 - [Technologies Used](#-technologies-used)
