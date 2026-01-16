@@ -33,15 +33,14 @@ A comprehensive and user-friendly implementation of the Play-Fair Cipher algorit
 ## � Deployment
 
 ### Web Version on Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Ayush056github/Encrypt-Decrypt)
 
-The web application is deployed and live at: **[encrypt-decrypt.vercel.app](https://encrypt-decrypt.vercel.app)**
+The web application can be deployed on Vercel.
 
 #### Deploy to Vercel Manually:
-1. **Connect your GitHub account** to Vercel
-2. **Import your repository** from GitHub
-3. **Deploy automatically** - Vercel will detect the static site and deploy it
-4. **Custom domain** (optional) - Add your own domain if desired
+1. Connect your GitHub account to Vercel
+2. Import your repository from GitHub
+3. Deploy automatically - Vercel will detect the static site and deploy it
+4. Custom domain (optional) - Add your own domain if desired
 
 #### Local Development:
 ```bash
