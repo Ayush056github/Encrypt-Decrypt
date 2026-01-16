@@ -1,0 +1,25 @@
+# Compiled Java classes
+*.class
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Node modules (if any)
+node_modules/
+
+# Screenshots (optional - uncomment if you don't want to commit screenshots)
+# screenshots/
