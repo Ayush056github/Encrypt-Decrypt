@@ -1,8 +1,8 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.*;
+import javax.swing.*;
 
 public class PlayFairCipherGUI extends JFrame {
     private JTextField keyField;
@@ -46,7 +46,7 @@ public class PlayFairCipherGUI extends JFrame {
 
         add(centerPanel, BorderLayout.CENTER);
 
-        // Buttons
+      
         JPanel buttonPanel = new JPanel(new FlowLayout());
         encryptButton = new JButton("Encrypt");
         decryptButton = new JButton("Decrypt");
@@ -54,7 +54,7 @@ public class PlayFairCipherGUI extends JFrame {
         buttonPanel.add(decryptButton);
         add(buttonPanel, BorderLayout.SOUTH);
 
-        // Matrix display
+       
         JPanel matrixPanel = new JPanel(new BorderLayout());
         matrixPanel.add(new JLabel("Key Matrix:"), BorderLayout.NORTH);
         matrixArea = new JTextArea(5, 50);
